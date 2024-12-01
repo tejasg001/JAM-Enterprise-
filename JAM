@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAM Enterprise</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: linear-gradient(90deg, #004196, #ff914d);
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            width: 80px;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+        header h1 {
+            color: white;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            color: #f9f9f9;
+            margin-top: 5px;
+            font-size: 1.2em;
+        }
+
+        section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 1100px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        section h2 {
+            color: #004196;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        section p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        ul {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+        ul li {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .hover-highlight:hover {
+            color: #ff914d;
+            transition: color 0.3s ease-in-out;
+        }
+
+        footer {
+            background-color: #004196;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+        footer a {
+            color: #ff914d;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="JAM Enterprise Logo" id="logo">
+    <h1>JAM Enterprise</h1>
+    <p>Excellence in Pharma and Chemicals</p>
+</header>
+
+<section class="fade-in">
+    <h2>Welcome to JAM Enterprise</h2>
+    <p>At JAM Enterprise, we specialize in delivering top-quality pharmaceutical raw materials, chemicals, and generic medicines to clients worldwide. Explore our comprehensive product range and experience excellence in trading solutions tailored to your needs.</p>
+</section>
+
+<section class="fade-in">
+    <h2>About Us</h2>
+    <p>JAM Enterprise is a premier trading company, bridging the gap between top-notch pharmaceutical and chemical products and businesses worldwide. Our expertise spans pharmaceutical raw materials, chemicals, intermediates, and finished dosages.</p>
+</section>
+
+<section class="fade-in">
+    <h2>Products</h2>
+    <h3>Chemicals</h3>
+    <ul>
+        <li>Pharmaceutical raw materials</li>
+        <li>Organic and Inorganic compounds</li>
+        <li>Industrial-grade solvents</li>
+        <li>Fine chemicals & more</li>
+    </ul>
+    <h3>Generic Medicines</h3>
+    <ul>
+        <li>Anti-Diabetic</li>
+        <li>Pain Management</li>
+        <li>Cardiovascular / Anti-Coagulants</li>
+        <li>Effervescent & more</li>
+    </ul>
+</section>
+
+<section class="fade-in">
+    <h2>Contact Us</h2>
+    <p>We are here to cater to your pharmaceutical and chemical needs. Reach out to us via:</p>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:thejamenterprise@gmail.com" class="hover-highlight">thejamenterprise@gmail.com</a></li>
+        <li><strong>Phone:</strong> +91 7859807699</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 JAM Enterprise | <a href="mailto:thejamenterprise@gmail.com">Contact Us</a></p>
+</footer>
+
+</body>
+</html>
